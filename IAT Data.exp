@@ -1,0 +1,818 @@
+**************************************************************************************************************
+**************************************************************************************************************
+	Implicit Attitude Test (IAT) -- Multilanguage Template
+**************************************************************************************************************
+**************************************************************************************************************
+	Last Modified:	10-24-2009 at 09:00 AM (PST)
+**************************************************************************************************************
+**************************************************************************************************************
+<instruct>
+/ inputdevice = mouse
+/ lastlabel = "Start"
+/ windowsize = (66%, 66%)
+</instruct>
+
+<expt>
+/ preinstructions = (welcome)
+
+</expt>
+
+<htmlpage welcome>
+/ file = "welcome.html"
+</htmlpage>
+
+**************************************************************************************************************
+**************************************************************************************************************
+STIMULUS ITEMS AND LABELS
+
+To customize the categories measured by the IAT, change the category labels 
+stimulus items listed below. 
+
+To add additional languages, append the items and labels for that language to the 
+lists. All languages must use an equal nubmer items. 
+**************************************************************************************************************
+**************************************************************************************************************
+
+<item attributeAlabel>
+/1 = "Peaceful"
+
+/2 = "Friedlich"
+
+/3 = "Vredig"
+</item>
+
+<item attributeA>
+/1 = "Good-natured"
+/2 = "Friendly"
+/3 = "Calm"
+/4 = "Harmonious"
+/5 = "Kind"
+/6 = "Cheerful"
+/7 = "Loving"
+/8 = "Gentle"
+
+/9 = "Gutmütig"
+/10 = "Wohlwollend"
+/11 = "Ruhig"
+/12 = "Harmonisch"
+/13 = "Freundlich"
+/14 = "Fröhlich"
+/15 = "Liebevoll"
+/16 = "Sanftmütig"
+
+/17 = "Goedaardig"
+/18 = "Vriendelijk"
+/19 = "Rustig"
+/20 = "Harmonieus"
+/21= "Aardig"
+/22 = "Vrolijk"
+/23 = "Liefdevol"
+/24 = "Zachtaardig"
+
+</item>
+
+<item attributeBlabel>
+/1 = "Aggressive"
+
+/2 = "Aggressiv"
+
+/3 = "Agressief"
+</item>
+
+<item attributeB>
+/1 = "Hateful"
+/2 = "Hostile"
+/3 = "Harmful"
+/4 = "Furious"
+/5 = "Violent"
+/6 = "Offensive"
+/7 = "Harsh"
+/8 = "Angry"
+
+/9 = "Gehässig"
+/10 = "Feindselig"
+/11 = "Verletzend"
+/12 = "Wütend"
+/13 = "Gewalttätig"
+/14 = "Angreifend"
+/15 = "Barsch"
+/16 = "Verärgert"
+
+/17 = "Hatelijk"
+/18 = "Vijandig"
+/19 = "Schadelijk"
+/20 = "Woedend"
+/21 = "Gewelddadig"
+/22 = "Aanvallend"
+/23 = "Bruut"
+/24 = "Boos"
+</item>
+
+<item targetAlabel>
+/1 = "Me"
+
+/2 = "Mich"
+
+/3 = "Mij"
+</item>
+
+<item targetA>
+/1 = "I"
+/2 = "My"
+/3 = "Mine"
+/4 = "Self"
+/5 = "Myself"
+/6 = "I"
+/7 = "I"
+/8 = "Myself"
+
+/9 = "Ich"
+/10 = "Mein"
+/11 = "Mir"
+/12 = "Ich"
+/13 = "Ich selbst"
+/14 = "Ich"
+/15 = "Ich"
+/16 = "Ich selbst"
+
+/17 = "Ik"
+/18 = "Mijn"
+/19 = "Mij"
+/20 = "Zelf"
+/21 = "Mezelf"
+/22 = "Ik"
+/23 = "Ik"
+/24 = "Mezelf"
+</item>
+
+<item targetBlabel>
+/1 = "Others"
+
+/2 = "Andere"
+
+/3 = "Anderen"
+</item>
+
+<item targetB>
+/1 = "They"
+/2 = "Them"
+/3 = "Their"
+/4 = "Others"
+/5 = "Theirs"
+/6 = "They"
+/7 = "Them"
+/8 = "Others"
+
+/9 = "Sie"
+/10 = "Ihnen"
+/11 = "Ihr"
+/12 = "Andere"
+/13 = "Ihre"
+/14 = "Sie"
+/15 = "Ihnen"
+/16 = "Andere"
+
+/17 = "Zij"
+/18 = "Ze"
+/19 = "Hun"
+/20 = "Anderen"
+/21 = "Jullie"
+/22 = "Zij"
+/23 = "Ze"
+/24 = "Anderen"
+</item>
+
+<item summary>
+/1 = "Your IAT score (D) was <% expressions.d %>, which suggests <% values.magnitude %> automatic preference for <% values.preferred %> compared to <% values.notpreferred %>.~n~n~nPress the spacebar to complete this session."
+
+/2 = "Ihr IAT Wert (D) beträgt <% expressions.d %>, was auf <% values.magnitude %> automatische Präferenz für <% values.preferred %> im Vergleich zu <% values.notpreferred %> hindeutet.~n~n~nDrücken Sie die Leertaste zum Beenden der Untersuchung."
+
+/3 = "Je IAT puntenaantal(D) was <% expressions.d %>, Wat wijst op  <% values.magnitude %> een automatische voorkeur voor <% values.preferred %> Vergeleken met <% values.notpreferred %> hindeutet.~n~n~nDruk op de spatiebalk om deze sessie te voltooien."
+</item>
+
+<item quantifier>
+/1 = "little to no"
+/2 = "a slight"
+/3 = "a moderate"
+/4 = "a strong"
+
+/5 = "keine nennenswerte"
+/6 = "eine geringe"
+/7 = "eine moderate"
+/8 = "eine starke"
+
+/9 = "Weinig tot geen"
+/10 = "een klein"
+/11 = "een gemiddeld"
+/12 = "een sterk"
+</item>
+
+<item spacebar>
+/1 = "Press the SPACE BAR to begin."
+
+/2 = "Drücken Sie die LEERTASTE, um zu beginnen."
+
+/3 = "Druk op de SPATIEBALK om te beginnen"
+</item>
+
+<item or>
+/1 = "or"
+
+/2 = "oder"
+
+/3 = "of"
+</item>
+
+**************************************************************************************************************
+**************************************************************************************************************
+TASK INSTRUCTIONS
+
+To customize the task instructions, change the instruction text items below. To 
+add additional languages, append the instruction items for each language to the list. 
+All languages must use have an equal nubmer instruction items. 
+**************************************************************************************************************
+**************************************************************************************************************
+
+<item instructions>
+/ 1 = "Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete."
+/ 2 = "See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN."
+/ 3 = "See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group. For example, if the categories 'Peaceful' and 'Me' appeared on the separate sides above - words meaning Peaceful would go in the 'Peaceful' category, not the 'Me' category.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key."
+
+/ 4 = "Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key."
+/ 5 = "Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key."
+/ 6 = "See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key."
+/ 7 = "Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key."
+
+/ 8 = "Legen Sie Ihre Mittel- oder Zeigefinger auf die E und I Tasten der Tastatur. Wörter, welche die oben genannten Kategorien repräsentieren, werden einzeln in der Bildschirmmitte erscheinen. Wenn das Wort der linken Kategorie angehört, drücken Sie die E Taste; wenn das Wort der rechten Kategorie angehört, drücken Sie die I Taste. Jedes Wort gehört eindeutig nur einer Kategorie an. Wenn Sie einen Fehler machen, wird ein X auf dem Bildschirm erscheinen - korrigieren Sie den Fehler, indem Sie die richtige Taste drücken.
+
+Dies ist eine auf Zeitmessung basierende Kategorisierungsaufgabe. ARBEITEN SIE SO SCHNELL WIE MÖGLICH und machen dabei möglichst wenige Fehler. Wenn Sie zu langsam arbeiten oder zu viele Fehler machen, können wir Ihre Daten nicht verwenden. Die Bearbeitungsdauer beträgt ca. 5 Minuten."
+/ 9 = "Wenn Sie nach oben sehen, werden Sie bemerken, dass die Kategorien geändert wurden. Die zu sortierenden Wörter sind ebenfalls andere. Die Regeln sind jedoch identisch.
+
+Wenn das Wort der linken Kategorie angehört, drücken Sie die E Taste; wenn das Wort der rechten Kategorie angehört, drücken Sie die I Taste. Jedes Wort gehört eindeutig einer der Kategorien an. Bei einem Fehler erscheint ein X - korrigieren Sie Ihre Antwort durch das Drücken der anderen Antworttaste. ARBEITEN SIE SO SCHNELL WIE MÖGLICH."
+/ 10 = "Wie Sie oben sehen können, erscheinen die vier Kategorien, die sie zuvor einzeln bearbeitet haben, nun zusammen. Zur Erinnerung: Jedes Wort gehört nur einer Gruppe an. Ein Beispiel: Wenn die Kategorien ‚Friedlich‘ und ‚ Ich‘ auf verschieden Seiten stehen, dann ordnen Sie Wörter die für ‚friedlich‘ stehen der ‚Friedlich‘ Kategorie zu und nicht der ‚Ich‘ Kategorie. 
+
+Die Farben der Kategorienbezeichnungen (grün und weiß) helfen Ihnen bei der korrekten Zuordnung. Benutzen Sie die E und I Tasten, um die verschiedenen Worte der jeweils richtigen Kategorie / Gruppe zuzuordnen. Korrigieren Sie eventuelle Fehler durch das Betätigen der anderen Antworttaste."
+
+/ 11 = "Sortieren Sie nun nochmals in die selben Kategorien. Zur Erinnerung: Arbeiten Sie so schnell wie möglich, aber machen Sie dabei möglichst wenige Fehler.
+
+Die Farben der Kategorienbezeichnungen (grün und weiß) helfen Ihnen bei der korrekten Zuordnung. Benutzen Sie die E und I Tasten, um die verschiedenen Worte der jeweils richtigen Kategorie / Gruppe zuzuordnen. Korrigieren Sie eventuelle Fehler durch das Betätigen der anderen Antworttaste."
+/ 12 = "Wie Sie oben sehen können, sind nun wieder nur zwei Kategorien vorhanden. Ihre Positionen sind jetzt vertauscht: Die vormals linke Kategorie ist jetzt rechts, die vormals rechte Kategorie ist jetzt auf der linken Seite. Üben Sie nun diese neue Zuordnung.
+
+Sortieren Sie die Wörter in die linke oder rechte Kategorie mit der E und I Taste. Korrigieren Sie eventuelle Fehler durch Drücken der anderen Antworttaste."
+/ 13 = "Wie Sie oben sehen können, erscheinen alle vier Kategorien nun in einer neuen Paarung. Zur Erinnerung: Jedes Wort gehört nur einer einzigen Gruppe an.
+
+Die Farben der Kategorienbezeichnungen (grün und weiß) helfen Ihnen bei der korrekten Zuordnung. Benutzen Sie die E und I Tasten, um die verschiedenen Worte der jeweils richtigen Kategorie / Gruppe zuzuordnen. Korrigieren Sie eventuelle Fehler durch das Betätigen der anderen Antworttaste."
+/ 14 = "Sortieren Sie nun nochmals in die selben Kategorien. Zur Erinnerung: Arbeiten Sie so schnell wie möglich, aber machen Sie dabei möglichst wenige Fehler.
+
+Die Farben der Kategorienbezeichnungen (grün und weiß) helfen Ihnen bei der korrekten Zuordnung. Benutzen Sie die E und I Tasten, um die verschiedenen Worte der jeweils richtigen Kategorie / Gruppe zuzuordnen. Korrigieren Sie eventuelle Fehler durch das Betätigen der anderen Antworttaste."
+
+/ 15 = "Leg je middel- of wijsvingers op de E en de I toets op het toetsenbord. Eén voor één verschijnen er woorden midden in het scherm die één van de bovenstaande categorieën vertegenwoordigen. Wanneer er een woord verschijnt die bij de categorie aan de linkerkant hoort, druk dan op de E toets; Wanneer  er een woord verschijnt die bij de categorie aan de rechterkant hoort, druk dan op de I toets. De woorden kunnen slechts bij één categorie horen en als je een fout maakt verschijnt er een X in beeld. Je kunt de fout dan herstellen door de andere categorie te kiezen.
+
+Dit is een test op snelheid en tijd. PROBEER ZO SNEL MOGELIJK DE JUISTE TOETS IN TE DRUKKEN ALS HET WOORD VERSCHIJNT EN PROBEER ZO MIN MOGELIJK FOUTEN TE MAKEN. Als je te langzaam bent of te veel fouten maakt is de eindscore niet te beoordelen. Deze test zal ongeveer 5 minuten in beslag nemen."
+/ 16 = "Let op! Zowel de categorieën als ook de begrippen die gesorteerd moeten worden zijn veranderd. Verder blijft alles onveranderd.
+
+Wanneer er een woord verschijnt die bij de categorie aan de linkerkant hoort, druk dan op de E toets; Wanneer  er een woord verschijnt die bij de categorie aan de rechterkant hoort, druk dan op de I toets. De woorden kunnen slechts bij één categorie horen en als je een fout maakt verschijnt er een X in beeld. Je kunt de fout dan herstellen door de andere categorie te kiezen. PROBEER ZO SNEL MOGELIJK DE JUISTE TOETS IN TE DRUKKEN ALS HET WOORD VERSCHIJNT EN PROBEER ZO MIN MOGELIJK FOUTEN TE MAKEN."
+/ 17 = "Let op! De vier categorieën die eerst apart werden getoond verschijnen nu gezamenlijk. Onthoud, elk woord behoort slechts tot één groep. Bijvoorbeeld, als de categorieën ‘Vredig’ en ‘Mij’ verschijnen links- en rechtsboven, dan zou het woord ‘Ik’ bij de ‘Mij’ categorie horen en niet bij de ‘Vredig’ categorie.
+
+De groene en witte kleur bij de categorieën en woorden kunnen je helpen bij het kiezen van de juiste categorie. Gebruik wederom de E en I toets om de woorden in vier groepen te categoriseren links en rechts. Eventuele fouten kan je weer herstellen door de andere toets te kiezen."
+
+/ 18 = "Sorteer de woorden nogmaals in de vier categorieën. Vergeet niet om zo snel mogelijk te werken en zo min mogelijk fouten te maken.
+
+De groene en witte kleur bij de categorieën en woorden kunnen je helpen bij het kiezen van de juiste categorie. Gebruik wederom de E en I toets om de woorden in vier groepen te categoriseren links en rechts. Eventuele fouten kan je weer herstellen door de andere toets te kiezen."
+/ 19 = "Let op! Er zijn slechts twee categorieën en ze zijn van positie gewisseld. De categorie die aan de linkerkant stond staat nu aan de rechterkant, en de categorie die aan de rechterkant stond staat nu aan de linkerkant. Oefen deze nieuwe situatie.
+
+Gebruik wederom de E en I toets om de woorden aan de linker- of rechterkant te categoriseren.Eventuele fouten kan je  weer herstellen door de andere toets te kiezen.."
+/ 20 = "Let op! De vier categorieën verschijnen nu gezamenlijk in een nieuwe verdeling. De categorie die aan de linkerkant stond staat nu aan de rechterkant, en de categorie die aan de rechterkant stond staat nu aan de linkerkant. Oefen deze nieuwe situatie.
+
+De groene en witte kleur bij de categorieën en kleuren kunnen je helpen bij het kiezen van de juiste categorie. Gebruik wederom de E en I toets om de woorden in vier groepen te categoriseren links en rechts. Eventuele fouten kan je weer herstellen door de andere toets te kiezen."
+/ 21 = "Sorteer de vier categorieën opnieuw. Onthoud, werk zo snel mogelijk en maak zo min mogelijk fouten.
+
+De groene en witte kleur bij de categorieën en kleuren kunnen je helpen bij het kiezen van de juiste categorie. Gebruik wederom de E en I toets om de woorden in vier groepen te categoriseren links en rechts. Eventuele fouten kan je weer herstellen door de andere toets te kiezen."
+</item>
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+LANGUAGE SELECTION
+
+The list of available languages for participants to choose from is specified here. 
+Change or add new languages to list by editing /options attribute. The langauges 
+listed here must appear in the same order as the items for each language appear 
+above. For example, if English items are listed first and German second, "English" 
+should be listed the /options attribute first, and "German" second.
+
+For each language in /options, a corresponding ordinal starting at 0 value must be 
+specified in the /optionvalues attribute. If the script includes two languages, for 
+example, the command should be as follows:
+
+/optionvalues = ("0", "1", "2")
+
+For three languages, the command should be:
+
+/optionvalues = ("0", "1", "2")
+
+**************************************************************************************************************
+**************************************************************************************************************
+
+<dropdown language>
+/ caption = "Please select your language / Bitte wählen Sie Ihre Sprache / Kies je gewenste taal:"
+/ options = ("English", "Deutsch", "Nederlands")
+/ optionvalues = ("0", "1", "2")
+</dropdown>
+
+**************************************************************************************************************
+**************************************************************************************************************
+IAT PROCEDURE
+The command below handle the task flow and scoring of the IAT. Modify these 
+elements only if you wish to customize the IAT procedure.
+
+
+***********************************************************************
+Performance summary
+***********************************************************************
+
+<trial summary>
+/ stimulustimes = [0=summary]
+/ validresponse = (" ")
+/ recorddata = false
+/ ontrialbegin = [values.magnitude = getitem(item.quantifier,values.languageoffset*values.nquantifiers+1)]
+/ ontrialbegin = [if( abs(expressions.d) > 0.15 ) values.magnitude = getitem(item.quantifier,values.languageoffset*values.nquantifiers+2)]
+/ ontrialbegin = [if( abs(expressions.d) > 0.35 ) values.magnitude = getitem(item.quantifier,values.languageoffset*values.nquantifiers+3)]
+/ ontrialbegin = [if( abs(expressions.d) >= 0.65 ) values.magnitude = getitem(item.quantifier,values.languageoffset*values.nquantifiers+4)]
+/ ontrialbegin = [if (expressions.d >= 0.0) values.preferred = getitem(item.targetALabel,expressions.singleitemoffset)]
+/ ontrialbegin = [if (expressions.d < 0.0) values.preferred = getitem(item.targetBLabel,expressions.singleitemoffset)]
+/ ontrialbegin = [if (expressions.d < 0.0) values.notpreferred= getitem(item.targetALabel,expressions.singleitemoffset)]
+/ ontrialbegin = [if (expressions.d >= 0.0) values.notpreferred= getitem(item.targetBLabel,expressions.singleitemoffset)]
+</trial>
+
+<text summary>
+/ items = summary
+/ size = (60%, 60%)
+/ hjustify = left
+/ select = expressions.singleitemoffset
+ </text>
+
+***********************************************************************
+Task instruction stimuli
+***********************************************************************
+
+<trial instructions>
+/ ontrialbegin = [values.instructions=counter.instructions.selectedvalue]
+/ stimulustimes = [1=instructions, spacebar]
+/ correctresponse = (" ")
+/ errormessage = false
+/ recorddata = false
+</trial>
+
+<text instructions>
+/ items = instructions
+/ hjustify = left
+/ size = (90%, 60%)
+/ position = (50%, 85%)
+/ valign = bottom
+/ select = expressions.instructions
+</text>
+
+<counter instructions>
+/ select = sequence(1-7)
+/ resetinterval = 20
+</counter>
+
+
+<text spacebar>
+/ items = spacebar
+/ position = (50%, 95%)
+/ valign = bottom
+/ select = expressions.singleitemoffset
+</text>
+
+<text attributeA>
+/ items = attributeA
+/ fontstyle = ("Arial", 5%)
+/ txcolor = (0, 255, 0)
+/ select = expressions.attributeA
+</text>
+
+<counter attributeA>
+/ select = noreplace(1-8)
+</counter>
+
+<text attributeB>
+/ items = attributeB
+/ fontstyle = ("Arial", 5%)
+/ txcolor = (0, 255, 0)
+/ select = expressions.attributeB
+</text>
+
+<counter attributeB>
+/ select = noreplace(1-8)
+</counter>
+
+<text targetB>
+/ items = targetB
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.targetB
+</text>
+
+<counter targetB>
+/ select = noreplace(1-8)
+</counter>
+
+<text targetA>
+/ items = targetA
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.targetA
+</text>
+
+<counter targetA>
+/ select = noreplace(1-8)
+</counter>
+
+<text error>
+/ position = (50%, 75%)
+/ items = ("X")
+/ color = (255, 0, 0)
+/ fontstyle = ("Arial", 10%, true)
+</text>
+
+<text attributeAleft>
+/ items = attributeAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 5%)
+/ txcolor = (0, 255, 0)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text attributeBright>
+/ items = attributeBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ txcolor = (0, 255, 0)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text attributeAleftmixed>
+/ items = attributeAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 19%)
+/ txcolor = (0, 255, 0)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text attributeBrightmixed>
+/ items = attributeBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 19%)
+/ txcolor = (0, 255, 0)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text targetBleft>
+/ items = targetBlabel
+/ valign = top
+/ halign = left	
+/ position = (5%, 5%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text targetBright>
+/ items = targetBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text targetAleft>
+/ items = targetAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 5%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text targetAright>
+/ items = targetAlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text orleft>
+/ items = or
+/ valign = top
+/ halign = left
+/ position = (5%, 12%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+<text orright>
+/ items = or
+/ valign = top
+/ halign = right
+/ position = (95%, 12%)
+/ fontstyle = ("Arial", 5%)
+/ select = expressions.singleitemoffset
+</text>
+
+***********************************************************************
+Trials
+***********************************************************************
+
+<trial attributeA>
+/ ontrialbegin = [values.attributeA=counter.attributeA.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = attributeA]
+/ posttrialpause = 250
+</trial>
+
+<trial attributeB>
+/ ontrialbegin = [values.attributeB=counter.attributeB.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = attributeB]
+/ posttrialpause = 250
+</trial>
+
+
+<trial targetBleft>
+/ ontrialbegin = [values.targetB=counter.targetB.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = targetB]
+/ posttrialpause = 250
+</trial>
+
+<trial targetBright>
+/ ontrialbegin = [values.targetB=counter.targetB.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = targetB]
+/ posttrialpause = 250
+</trial>
+
+<trial targetAleft>
+/ ontrialbegin = [values.targetA=counter.targetA.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = targetA]
+/ posttrialpause = 250
+</trial>
+
+<trial targetAright>
+/ ontrialbegin = [values.targetA=counter.targetA.selectedvalue]
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = targetA]
+/ posttrialpause = 250
+</trial>
+
+***********************************************************************
+Blocks
+***********************************************************************
+
+<block attributepractice>
+/ bgstim = (attributeAleft, attributeBright)
+/ trials = [1=instructions;2-21 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetcompatiblepractice>
+/ bgstim = (targetAleft, targetBright)
+/ trials = [1=instructions;2-21 = random(targetAleft, targetBright)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetincompatiblepractice>
+/ bgstim = (targetAright, targetBleft)
+/ trials = [1=instructions;2-21 = random(targetAright, targetBleft)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetcompatiblepracticeswitch>
+/ bgstim = (targetAleft, targetBright)
+/ trials = [1=instructions;2-41 = random(targetAleft, targetBright)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetincompatiblepracticeswitch>
+/ bgstim = (targetAright, targetBleft)
+/ trials = [1=instructions;2-41 = random(targetAright, targetBleft)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block compatibletest1>
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
+/ trials = [1=instructions;
+  3,5,7,9,11,13,15,17,19,21= random(targetAleft, targetBright);
+  2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [if (block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.sum1a =  values.sum1a + block.compatibletest1.latency]
+/ ontrialend = [if (block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.n1a =  values.n1a + 1]
+/ ontrialend = [if (block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.ss1a =  values.ss1a + (block.compatibletest1.latency * block.compatibletest1.latency)]
+</block>
+
+<block compatibletest2>
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
+/ trials = [
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetAleft, targetBright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [if (block.compatibletest2.latency  <= 10000) values.sum1b =  values.sum1b + block.compatibletest2.latency]
+/ ontrialend = [if (block.compatibletest2.latency  <= 10000) values.n1b =  values.n1b + 1]
+/ ontrialend = [if (block.compatibletest2.latency  <= 10000) values.ss1b =  values.ss1b + (block.compatibletest2.latency * block.compatibletest2.latency)]
+</block>
+
+
+<block incompatibletest1>
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
+/ trials = [1=instructions;
+  3,5,7,9,11,13,15,17,19,21 = random(targetBleft, targetAright);
+  2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [if (block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1) values.sum2a =  values.sum2a + block.incompatibletest1.latency]
+/ ontrialend = [if (block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1 ) values.n2a =  values.n2a + 1]
+/ ontrialend = [if (block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1 ) values.ss2a =  values.ss2a + (block.incompatibletest1.latency * block.incompatibletest1.latency)]
+</block>
+
+<block incompatibletest2>
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
+/ trials = [
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetBleft, targetAright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [if (block.incompatibletest2.latency  <= 10000) values.sum2b =  values.sum2b + block.incompatibletest2.latency]
+/ ontrialend = [if (block.incompatibletest2.latency  <= 10000) values.n2b =  values.n2b + 1]
+/ ontrialend = [if (block.incompatibletest2.latency  <= 10000) values.ss2b =  values.ss2b + (block.incompatibletest2.latency * block.incompatibletest2.latency)]
+</block>
+
+<block compatibletestinstructions>
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
+/ trials = [1=instructions]
+/ recorddata = false
+</block>
+
+<block incompatibletestinstructions>
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
+/ trials = [1=instructions]
+/ recorddata = false
+</block>
+
+<block summary>
+/ trials = [1=summary]
+/ recorddata = false
+</block>
+
+***********************************************************************
+Experiment
+***********************************************************************
+
+<defaults>
+/ fontstyle = ("Arial", 3.5%)
+/ screencolor = (0,0,0)
+/ txbgcolor = (0,0,0)
+/ txcolor = (255, 255, 255)
+/ minimumversion = "3.0.0.0"
+</defaults>
+
+<expt>
+/ blocks = [1=selectlanguage; 2=block1; 3=attributepractice; 4=block3; 5=block4; 6=block5; 7=block6; 8=block7; 9=block8; 10=block9; 11=summary]
+</expt>
+
+<variables>
+/ group = (1 of 2) (block1=targetincompatiblepractice; block3=incompatibletest1; block4=incompatibletestinstructions; block5=incompatibletest2; block6=targetcompatiblepractice; block7=compatibletest1; block8=compatibletestinstructions; block9=compatibletest2)
+/ group = (2 of 2) (block1=targetcompatiblepractice; block3=compatibletest1; block4=compatibletestinstructions; block5=compatibletest2; block6=targetincompatiblepractice; block7=incompatibletest1; block8=incompatibletestinstructions; block9=incompatibletest2)
+</variables>
+
+***********************************************************************
+Data Columns
+***********************************************************************
+
+<data>
+/ columns = [date, time, subject, blockcode, blocknum, trialcode, trialnum, response, correct, latency, stimulusnumber, stimulusitem, expressions.da, expressions.db, expressions.d ]
+</data>
+
+***********************************************************************
+Test Monkey
+***********************************************************************
+<monkey>
+/ latencydistribution = normal(500, 100)
+/ percentcorrect = 90
+</monkey>
+
+***********************************************************************
+Scoring
+***********************************************************************
+<values>
+/ ntargets = 8
+/ nattributes = 8
+/ ninstructions = 7
+/ nquantifiers = 4
+/ languageoffset = 1
+/ attributeA = 0
+/ attributeB = 0
+/ targetA = 0
+/ targetB = 0
+/ instructions = 0
+/ sum1a = 0
+/ sum2a = 0
+/ sum1b = 0
+/ sum2b = 0
+/ n1a = 0
+/ n2a = 0
+/ n1b = 0
+/ n2b = 0
+/ ss1a = 0
+/ ss2a = 0
+/ ss1b = 0
+/ ss2b = 0
+/ magnitude = "unknown"
+/ preferred = "unknown"
+/ notpreferred = "unknown"
+</values>
+
+* 1 is compatible, 2 is incompatible
+* a is first block, b is second block
+
+<expressions>
+/ singleitemoffset = values.languageoffset+1
+/ attributeA = values.attributeA+(values.languageoffset*values.nattributes)
+/ attributeB = values.attributeB+(values.languageoffset*values.nattributes)
+/ targetA = values.targetA+(values.languageoffset*values.ntargets)
+/ targetB = values.targetB+(values.languageoffset*values.ntargets)
+/ instructions = values.instructions+(values.languageoffset*values.ninstructions)
+/ m1a = values.sum1a / values.n1a
+/ m2a = values.sum2a / values.n2a
+/ m1b = values.sum1b / values.n1b
+/ m2b = values.sum2b / values.n2b
+/ sd1a = sqrt((values.ss1a - (values.n1a * (expressions.m1a * expressions.m1a))) / (values.n1a - 1))
+/ sd2a = sqrt((values.ss2a - (values.n2a * (expressions.m2a * expressions.m2a))) / (values.n2a - 1))
+/ sd1b = sqrt((values.ss1b - (values.n1b * (expressions.m1b * expressions.m1b))) / (values.n1b - 1))
+/ sd2b = sqrt((values.ss2b - (values.n2b * (expressions.m2b * expressions.m2b))) / (values.n2b - 1))
+/ sda = sqrt((((values.n1a - 1) * (expressions.sd1a * expressions.sd1a) + (values.n2a - 1) * (expressions.sd2a * expressions.sd2a)) + ((values.n1a + values.n2a) * ((expressions.m1a - expressions.m2a) * (expressions.m1a - expressions.m2a)) / 4) ) / (values.n1a + values.n2a - 1) )
+/ sdb = sqrt((((values.n1b - 1) * (expressions.sd1b * expressions.sd1b) + (values.n2b - 1) * (expressions.sd2b * expressions.sd2b)) + ((values.n1b + values.n2b) * ((expressions.m1b - expressions.m2b) * (expressions.m1b - expressions.m2b)) / 4) ) / (values.n1b + values.n2b - 1) )
+/ da = (m2a - m1a) / expressions.sda
+/ db = (m2b - m1b) / expressions.sdb
+/ d = (expressions.da + expressions.db) / 2
+</expressions>
+
+***********************************************************************
+Language selection
+***********************************************************************
+<surveypage language>
+/ ontrialend = [values.languageoffset=dropdown.language.selectedvalue]
+/ questions = [1=language]
+</surveypage>
+
+<block selectlanguage>
+/ trials = [1=language]
+</block>
+
+
+
+
+
+
+
+
+
+
+
