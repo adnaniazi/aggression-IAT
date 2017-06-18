@@ -1,8 +1,6 @@
 Multi-language Implicit Association Test (IAT) for measuring aggression
 -----------------------------------------------------------------------
 
- 
-
 This is a computer based Implicit Association Test for measuring aggression. The
 IAT is designed in Millisecond Inquisit software so you will need to install
 Inquisit on the PC you want to run this IAT on. This particular IAT can be
