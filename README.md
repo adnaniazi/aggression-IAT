@@ -9,16 +9,12 @@ Inquisit on the PC you want to run this IAT on. This particular IAT can be
 conducted in three different languages: German, Dutch, and English. The IAT is
 immediately followed by a demographic questionnaire.
 
-[Watch a Demo of this IAT](https://www.youtube.com/watch?v=emqZKTAVenI)[ ]
-
- 
+[Watch a Demo of this IAT](https://www.youtube.com/watch?v=emqZKTAVenI)
 
 Inquisit standardized our IAT making it easier for everyone to use. You can
 download this revised version of our IAT from Inquisit:  
 [Download IAT from
 Inquisit](http://www.millisecond.com/download/library/IAT/AggressionIAT/)
-
- 
 
 If you want to find more information about this IAT, please read the following
 paper:  
